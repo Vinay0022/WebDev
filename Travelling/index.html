@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travels Main Page</title>
+
+
+    <link rel="stylesheet"   href="sStyle.css">
+</head>
+
+<body>
+    <section class="showcase ">
+        <header>
+        <h2 class="logo">TRAVELS</h2> 
+        <div class="toggle   "> </div>
+       </header>
+        <video src="sea.mp4" muted autoplay loop ></video>
+        <div class="overlay"></div>
+
+    <div class="text">
+
+        <h2>Never stop  </h2>
+        <h3>EXPLORING THE WORLD</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum non rem numquam. Laudantium beatae voluptate,
+            temporibus quos ipsum, ad dolores quidem numquam eos omnis obcaecati eum unde cupiditate exercitationem sit.
+        </p>
+      <a href="https://codepen.io/bradtraversy/pen/eYdMqvx" target="_blank">Explore</a>
+    </div>
+
+    
+    <div class="social ">
+        <ul>
+            <li><a href="#"><img src="/Link in bio/images/Twitter.svg"width="38"/></a></li>
+            <li><a href="#"><img src="/Link in bio/images/Github.svg" width="38"></a></li>
+            <li><a href="#"><img src="/Link in bio/images/Home.svg" width="38"></a></li>
+        </ul>
+    </div>
+</section>
+   <div class="menu">
+       <ul>
+            <li><a href="#" target="_blank">HOME</a></li>
+            <li><a href="#" target="_blank">NEWS</a></li>
+            <li><a href="#">DESTINATION</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">CONTENT</a></li>
+        </ul>
+    </div>
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showcase')
+
+        menuToggle.addEventListener('click',() => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+    </script>
+
+
+
+
+</body>
+
+</html>
