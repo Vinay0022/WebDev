@@ -1,0 +1,83 @@
+body{
+  background-image:  url(https://www.wallpaperflare.com/static/786/204/12/spirited-away-chihiro-minimalism-spirited-wallpaper.jpg );
+
+  background-size:cover;
+}
+
+header h1{
+  margin-left: 105px;
+}
+header{
+  display: flex;
+  top: 0;
+  left: 0;
+  color: black;
+  align-items: center;
+  padding-bottom: 150px;
+  justify-content: space-between;
+}
+header ul{
+  display: flex;
+  flex-direction: row;
+  padding-right: 350px;
+}
+header ul li{
+  margin-right:15px;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  font-size: large;
+font-weight: 1000;
+}
+section{
+  padding-left: 75px;
+  position: relative;
+  width:50%; 
+  color: black;
+  padding-bottom: 70px;
+  margin-bottom: 10em;
+}
+
+section button{
+  position: absolute;
+  background-color: pink;
+  width: 105px;
+  height: 50px;
+  border-radius: 10px;
+  border-color: wheat;
+  bottom: 0;
+  right: 0;
+}
+#image{
+  z-index: 2;
+  background-position: right;
+}
+footer ul{
+  display: flex;
+  
+}
+footer ul li {
+  list-style: none;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer p{
+  margin-right: 50%;
+  font-size: 40px;
+}
+header ul li a{
+color: black;
+text-decoration: none;
+margin-left: 35px;
+padding: 15px 15px;
+border-radius: 10px;
+
+}
+header ul li a:hover{
+  background-color: wheat;
+  width: 50px;
+  height: 50px;
+}
