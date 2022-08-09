@@ -1,0 +1,17 @@
+body{
+  background: url(https://convertingcolors.com/plain-6DAC9A.svg);
+  background-size: cover;
+}
+
+header{
+  display: flex;
+
+}
+header ul li{
+   
+  flex-direction: row;
+}
+header ul li a{
+  text-decoration: none;
+  text-s
+}
